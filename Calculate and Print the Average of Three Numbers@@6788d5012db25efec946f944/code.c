@@ -11,7 +11,7 @@ int main() {
     average = (num1 + num2 + num3) / 3.0;
 
     // Printing the average
-    printf("Average: %.2ln", average);
+    printf("Average: %lf\n", average);
 
     return 0;
 }
