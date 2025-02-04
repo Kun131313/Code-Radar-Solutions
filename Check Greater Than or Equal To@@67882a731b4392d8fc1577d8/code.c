@@ -10,9 +10,9 @@ int main() {
 
     // Checking if the first number is greater than or equal to the second
     if (num1 >= num2) {
-        printf("False \n", num1, num2);
-    } else {
         printf("True \n", num1, num2);
+    } else {
+        printf("False \n", num1, num2);
     }
 
     return 0;
