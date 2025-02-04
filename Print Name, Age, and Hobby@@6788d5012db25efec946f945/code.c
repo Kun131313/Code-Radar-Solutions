@@ -17,7 +17,7 @@ int main() {
     // Printing the user's information
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
-    printf("Favorite Hobby: %s\n", hobby);
+    printf("Hobby: %s\n", hobby);
 
     return 0;
 }
