@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &num2);
 
     // Checking if the first number is greater than the second
-    if (num1 = num2) {
+    if (num1 == num2) {
         printf("True", num1, num2);
     } else {
         printf("False", num1, num2);
