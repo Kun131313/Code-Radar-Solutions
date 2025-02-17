@@ -1,18 +1,23 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num1, num2, greater;
 
+  
     scanf("%d", &num1);
+
+
     scanf("%d", &num2);
 
-    // Check if the number is even or odd
-    if (num1>num2) {
-        printf("%d", num1);
+    // Find the greater number
+    if (num1 > num2) {
+        greater = num1;
     } else {
-        printf("%d", num2);
+        greater = num2;
     }
+
+    // Print the greater number
+    printf("%d",  greater);
 
     return 0;
 }
