@@ -10,7 +10,7 @@ int main() {
 
     result = num1 | num2;
 
-    printf(" ", num1, num2, result);
+    printf("", num1, num2, result);
 
     return 0;
 }
