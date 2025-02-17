@@ -14,7 +14,7 @@ int main() {
     result = num1 ^ num2;
 
     // Print the result
-    printf("%d", num1, num2, result);
+    printf("%d",  result);
 
     return 0;
 }
