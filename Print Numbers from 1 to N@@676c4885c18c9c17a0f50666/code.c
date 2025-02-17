@@ -7,7 +7,7 @@ int main() {
 
     // Print all numbers from 1 to N
     for (i = 1; i <= N; i++) {
-        printf("%d\n", i);
+        printf("%d", i);
     }
 
     return 0;
