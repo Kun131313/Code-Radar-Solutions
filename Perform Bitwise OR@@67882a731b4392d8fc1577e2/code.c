@@ -6,11 +6,8 @@ int main() {
     scanf("%d", &num1);
 
     scanf("%d", &num2);
-
-
     result = num1 | num2;
-
-    printf("", num1, num2, result);
+    printf("",result);
 
     return 0;
 }
