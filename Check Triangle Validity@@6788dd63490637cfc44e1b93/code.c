@@ -13,7 +13,7 @@ int main() {
     if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1)) {
         printf("Valid", side1, side2, side3);
     } else {
-        printf("Not valid", side1, side2, side3);
+        printf("Not Valid", side1, side2, side3);
     }
 
     return 0;
