@@ -14,8 +14,8 @@ int main() {
     num1 = num1 ^ num2;
 
     // Print the swapped values
-    printf("%d\n", num1);
-    printf("%d", num2);
+    printf("%d %d", num1 , num2);
+  
 
     return 0;
 }
