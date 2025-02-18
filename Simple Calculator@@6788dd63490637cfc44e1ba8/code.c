@@ -31,9 +31,7 @@ int main() {
             } else {
                 printf("Error");
             }
-            break;
-        default:
-            printf("Error");
+   
             break;
     }
 
