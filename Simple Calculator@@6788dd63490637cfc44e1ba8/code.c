@@ -14,20 +14,20 @@ int main() {
     switch (operator) {
         case '+':
             result = num1 + num2;
-            printf("",  result);
+            printf(" ",  result);
             break;
         case '-':
             result = num1 - num2;
-            printf("",  result);
+            printf(" ",  result);
             break;
         case '*':
             result = num1 * num2;
-            printf("", result);
+            printf(" ", result);
             break;
         case '/':
             if (num2 != 0) {
                 result = num1 / num2;
-                printf("", result);
+                printf(" ", result);
             } else {
                 printf("Error");
             }
